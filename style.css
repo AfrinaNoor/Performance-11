@@ -1,0 +1,48 @@
+#box1{
+    height: 500px;
+    max-width: 500px;
+    border: 3px blueviolet dashed;
+    margin-left: 30px;
+}
+#box1 p{
+    border: 4px dotted red;
+    background-color: chartreuse;
+    color: whitesmoke;
+    padding: 20px;
+}
+#box2{
+    height: 250px;
+    width: 500px;
+    border: 3px blueviolet dashed;
+    margin-left: 30px;
+    outline-width: 5px;
+    outline-style: double;
+    outline-color: darkcyan;
+    outline-offset: 10px;
+}
+#box2 p{
+    border: 4px dotted red;
+    background-color: chartreuse;
+    padding: 20px;
+    text-align: right;
+    text-align-last: left;
+}
+#box2 p img{
+    vertical-align: text-top;
+}
+#box3{
+    height: 300px;
+    width: 300px;
+    border: 5px solid red;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+#box3 p{
+    color: white;
+    padding: 5px;
+    direction: ltr;
+    border: 2px solid red;
+    background-color: black;
+    direction: rtl;
+    unicode-bidi: bidi-override;
+}
